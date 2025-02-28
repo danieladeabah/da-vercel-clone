@@ -6,27 +6,11 @@
     >
       <!-- Left Card -->
       <div class="p-6 shadow-sm">
-        <h3 class="flex items-center gap-2 text-gray-500 text-sm">
-          <ConnectIcon /> Git-connected Deploys
-        </h3>
-        <h2 class="lg:text-xl font-semibold mt-2">
-          From localhost to https, in seconds.
-        </h2>
-        <p class="text-gray-600 mt-2">Deploy from Git or your CLI.</p>
         <GitConnect width="100%" />
       </div>
 
       <!-- Right Card -->
       <div class="p-6 border-l dark:border-[#3b3b3b] shadow-sm">
-        <h3 class="flex items-center gap-2 text-gray-500 text-sm">
-          <ChatIcon /> Collaborative pre-production
-        </h3>
-        <h2 class="lg:text-xl font-semibold mt-2">
-          Every deploy is remarkable.
-        </h2>
-        <p class="text-gray-600 mt-2">
-          Chat with your team on real, production-grade UI, not just designs.
-        </p>
         <Collaborate width="100%" />
       </div>
     </div>
@@ -55,28 +39,11 @@
     >
       <!-- Left Card -->
       <div class="p-6 shadow-sm">
-        <h3 class="flex items-center gap-2 text-gray-500 text-sm">
-          <RefreshIcon /> Instant Rollbacks
-        </h3>
-        <h2 class="text-xl font-semibold mt-2">Go ahead, deploy on Friday.</h2>
-        <p class="text-gray-600 mt-2">
-          Instantly rollback to a working deployment.
-        </p>
         <Rollback width="100%" />
       </div>
 
       <!-- Right Card -->
       <div class="p-6 border-l dark:border-[#3b3b3b] shadow-sm">
-        <h3 class="flex items-center gap-2 text-gray-500 text-sm">
-          <BookIcon /> Conformance
-        </h3>
-        <h2 class="text-xl font-semibold mt-2">
-          Move fast, don’t break things.
-        </h2>
-        <p class="text-gray-600 mt-2">
-          Keep quality high while maintaining velocity with Enterprise
-          Monorepos.
-        </p>
         <Conformance width="100%" />
       </div>
     </div>
@@ -93,10 +60,8 @@
       <button
         class="border border-gray-300 dark:border-[#3b3b3b] bg-white dark:bg-black dark:text-white dark:hover:bg-[#1F1F1F] px-5 py-2 rounded-full font-medium text-gray-700 mt-1 lg:mt-0"
       >
-        <span class="flex items-center gap-2"
-          ><PrivacyIcon /> Security</span
-        ></button
-      >.
+        <span class="flex items-center gap-2"><PrivacyIcon /> Security</span>
+      </button>
     </div>
 
     <div
@@ -159,8 +124,5 @@ import Charts from "@/assets/sections/charts.vue";
 import Rollback from "@/assets/sections/rollback.vue";
 import Conformance from "@/assets/sections/conformance.vue";
 import ConnectIcon from "@/assets/icons/connect-icon.vue";
-import ChatIcon from "@/assets/icons/chat-icon.vue";
 import PrivacyIcon from "@/assets/icons/privacy-icon.vue";
-import RefreshIcon from "@/assets/icons/refresh-icon.vue";
-import BookIcon from "@/assets/icons/book-icon.vue";
 </script>
