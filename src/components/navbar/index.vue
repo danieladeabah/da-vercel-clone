@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="sticky top-0 z-50 bg-[#FAFAFA] flex justify-between items-center px-8 py-4 max-w-[100rem] mx-auto pt-4"
+    class="sticky top-0 z-50 bg-[#FAFAFA] flex justify-between items-center px-8 py-2 max-w-[100rem] mx-auto pt-4"
   >
     <div class="flex items-center space-x-6">
       <!-- Logo -->
@@ -9,7 +9,7 @@
       </div>
 
       <!-- Mobile Menu Icon -->
-      <button @click="toggleMenu" class="lg:hidden">
+      <button @click="toggleMenu" class="absolute right-8 lg:hidden">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

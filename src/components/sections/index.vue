@@ -75,8 +75,18 @@
 
     <!-- Footer CTA -->
     <div class="text-center mt-10 text-lg font-semibold">
-      Scale your <span class="text-blue-600">Enterprise</span> without
-      compromising <span class="text-gray-700">Security</span>.
+      Scale your
+      <button
+        class="border border-gray-300 bg-white px-5 rounded-full font-medium text-gray-700"
+      >
+        Enterprise
+      </button>
+      without compromising
+      <button
+        class="border border-gray-300 bg-white px-5 rounded-full font-medium text-gray-700"
+      >
+        Security</button
+      >.
     </div>
 
     <div
