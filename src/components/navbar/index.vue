@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="sticky top-0 z-50 bg-[#FAFAFA] flex justify-between items-center px-8 max-w-[100rem] mx-auto py-4"
+    class="flex px-4 py-4 justify-between items-center relative z-50 max-w-screen-2xl mx-auto"
   >
     <div class="flex items-center space-x-6">
       <!-- Logo -->
@@ -44,7 +44,7 @@
 
           <!-- Dropdown with Icons -->
           <div
-            class="absolute left-0 top-full mt-2 w-[500px] bg-white shadow-lg p-6 rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300"
+            class="absolute border left-0 top-full mt-2 w-[800px] bg-white shadow-lg p-6 rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300"
           >
             <div class="grid grid-cols-3 gap-4">
               <div
@@ -69,7 +69,7 @@
                       <span>{{ subItem.title }}</span>
                       <span
                         v-if="subItem.description"
-                        class="block text-sm text-gray-500 truncate"
+                        class="block text-sm text-gray-500"
                       >
                         {{ subItem.description }}
                       </span>
