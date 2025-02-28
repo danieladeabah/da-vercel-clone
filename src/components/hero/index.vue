@@ -17,12 +17,12 @@
 
       <div class="mt-6 flex flex-row justify-center gap-4">
         <button
-          class="bg-black text-white px-5 sm:px-6 py-2 sm:py-3 rounded-full font-medium flex items-center truncate"
+          class="bg-black text-white dark:bg-white dark:text-black hover:bg-[#1F1F1F] px-5 sm:px-6 py-2 sm:py-3 rounded-full font-medium flex items-center truncate"
         >
           ▲ Start Deploying
         </button>
         <button
-          class="bg-white text-black border border-gray-300 px-5 sm:px-6 py-2 sm:py-3 rounded-full font-medium truncate"
+          class="bg-white dark:bg-black dark:text-white dark:hover:bg-[#1F1F1F] text-black border border-gray-300 px-5 sm:px-6 py-2 sm:py-3 rounded-full font-medium truncate"
         >
           Get a Demo
         </button>

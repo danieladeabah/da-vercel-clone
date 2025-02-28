@@ -85,13 +85,13 @@
     <div class="text-center mt-10 text-lg font-semibold">
       Scale your
       <button
-        class="border border-gray-300 dark:border-[#3b3b3b] bg-white px-5 rounded-full font-medium text-gray-700"
+        class="border border-gray-300 dark:border-[#3b3b3b] bg-white dark:bg-black dark:text-white dark:hover:bg-[#1F1F1F] px-5 py-2 rounded-full font-medium text-gray-700"
       >
         <span class="flex items-center gap-2"><ConnectIcon /> Enterprise</span>
       </button>
       without compromising
       <button
-        class="border border-gray-300 dark:border-[#3b3b3b] bg-white px-5 rounded-full font-medium text-gray-700 mt-1 lg:mt-0"
+        class="border border-gray-300 dark:border-[#3b3b3b] bg-white dark:bg-black dark:text-white dark:hover:bg-[#1F1F1F] px-5 py-2 rounded-full font-medium text-gray-700 mt-1 lg:mt-0"
       >
         <span class="flex items-center gap-2"
           ><PrivacyIcon /> Security</span
@@ -100,11 +100,11 @@
     </div>
 
     <div
-      class="mt-10 flex flex-col md:flex-row items-center border-t border-b dark:border-[#3b3b3b] gap-10 px-6 py-6"
+      class="mt-10 flex flex-col md:flex-row items-center border-t border-b dark:border-[#3b3b3b] gap-10 p-6"
     >
       <!-- Left Section -->
       <div class="flex-1 text-center md:text-left px-4 lg:px-8">
-        <h2 class="font-semibold text-lg lg:text-xl">
+        <h2 class="font-semibold text-lg">
           <span class="text-black dark:text-white">Ready to deploy?</span>
           <span class="text-gray-600">
             Start building with a free account.</span
@@ -119,12 +119,12 @@
           class="mt-4 flex flex-col sm:flex-row gap-3 justify-center md:justify-start"
         >
           <button
-            class="bg-black text-white px-6 py-2 rounded-full font-medium dark:border dark:border-[#3b3b3b]"
+            class="bg-black text-white dark:bg-white dark:text-black hover:bg-[#1F1F1F] px-6 py-2 rounded-full font-medium dark:border dark:border-[#3b3b3b]"
           >
             Start Deploying
           </button>
           <button
-            class="border border-gray-300 dark:border-[#3b3b3b] bg-white px-6 py-2 rounded-full font-medium text-gray-700"
+            class="border border-gray-300 dark:border-[#3b3b3b] bg-white dark:bg-black dark:text-white dark:hover:bg-[#1F1F1F] px-6 py-2 rounded-full font-medium text-gray-700"
           >
             Talk to an Expert
           </button>
@@ -135,15 +135,15 @@
       <div
         class="flex-1 text-center md:text-left md:border-l dark:border-[#3b3b3b] md:pl-8"
       >
-        <p class="text-gray-800 font-medium text-lg">
+        <p class="text-gray-500 font-medium text-lg">
           Explore Vercel Enterprise
         </p>
-        <p class="text-gray-600 text-sm my-3 max-w-md mx-auto md:mx-0">
+        <p class="text-gray-600 text-sm my-3 lg:my-0 max-w-md mx-auto md:mx-0">
           Take an interactive product tour, start a trial, or request a
           personalized demo.
         </p>
         <button
-          class="mt-3 px-6 py-2 bg-white rounded-full text-gray-700 font-medium"
+          class="border border-gray-300 dark:border-[#3b3b3b] bg-white px-6 py-2 rounded-full font-medium text-gray-700"
         >
           Explore Enterprise
         </button>
