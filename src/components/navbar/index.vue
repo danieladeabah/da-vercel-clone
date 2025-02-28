@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="flex px-4 py-4 justify-between items-center relative z-50 max-w-screen-2xl mx-auto"
+    class="flex px-4 py-3 justify-between items-center relative z-50 max-w-screen-2xl mx-auto"
   >
     <div class="flex items-center space-x-6">
       <!-- Logo -->
