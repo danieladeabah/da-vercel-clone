@@ -27,6 +27,18 @@
           Get a Demo
         </button>
       </div>
+      <svg
+        width="314"
+        height="271"
+        viewBox="0 0 314 271"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0.6474 271.007H313.233L156.94 0.300293L0.6474 271.007Z"
+          fill="black"
+        />
+      </svg>
     </div>
 
     <HeroDeploy class="w-full max-w-screen-lg" />
