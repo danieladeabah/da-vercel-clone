@@ -7,7 +7,7 @@
         <h3 class="flex items-center gap-2 text-gray-500 text-sm">
           <ConnectIcon /> Git-connected Deploys
         </h3>
-        <h2 class="text-xl font-semibold mt-2">
+        <h2 class="lg:text-xl font-semibold mt-2">
           From localhost to https, in seconds.
         </h2>
         <p class="text-gray-600 mt-2">Deploy from Git or your CLI.</p>
@@ -19,7 +19,7 @@
         <h3 class="flex items-center gap-2 text-gray-500 text-sm">
           <ChatIcon /> Collaborative pre-production
         </h3>
-        <h2 class="text-xl font-semibold mt-2">Every deploy is remarkable.</h2>
+        <h2 class="lg:text-xl font-semibold mt-2">Every deploy is remarkable.</h2>
         <p class="text-gray-600 mt-2">
           Chat with your team on real, production-grade UI, not just designs.
         </p>
@@ -95,7 +95,7 @@
       class="mt-10 flex flex-col md:flex-row items-center border-t border-b gap-10"
     >
       <!-- Left Section -->
-      <div class="flex-1 text-xl px-8 pt-4 lg:pt-2">
+      <div class="flex-1 lg:text-xl px-8 pt-4 lg:pt-2">
         <h2 class="font-semibold">
           <span class="text-black">Ready to deploy?</span>
           <span class="text-gray-600">
