@@ -30,7 +30,9 @@
     </div>
 
     <!-- Middle Section -->
-    <div class="mt-10 p-6 border-t border-b shadow-sm bg-white">
+    <div
+      class="mt-10 p-6 border-t border-b dark:border-[#3b3b3b] shadow-sm bg-white"
+    >
       <h3 class="flex items-center gap-2 text-gray-500 text-sm">
         <PrivacyIcon /> Frontend Observability
       </h3>
@@ -113,7 +115,7 @@
           class="mt-4 flex flex-col sm:flex-row gap-3 justify-center md:justify-start"
         >
           <button
-            class="bg-black text-white px-6 py-2 rounded-full font-medium"
+            class="bg-black text-white px-6 py-2 rounded-full font-medium dark:border dark:border-[#3b3b3b]"
           >
             Start Deploying
           </button>

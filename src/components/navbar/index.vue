@@ -33,7 +33,9 @@
           v-for="(item, index) in navItems"
           :key="index"
         >
-          <button class="hover:text-black flex items-center">
+          <button
+            class="hover:text-black dark:hover:text-white dark:text-gray-400 flex items-center"
+          >
             {{ item.title }}
             <span class="ml-1">
               <ChevronDownIcon
@@ -44,14 +46,14 @@
 
           <!-- Dropdown with Icons -->
           <div
-            class="absolute border left-0 top-full mt-2 w-[800px] bg-white shadow-lg p-6 rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300"
+            class="absolute border left-0 top-full mt-2 w-[800px] bg-white dark:bg-black dark:border-[#3b3b3b] shadow-lg p-6 rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300"
           >
             <div class="grid grid-cols-3 gap-4">
               <div
                 v-for="(category, catIndex) in item.categories"
                 :key="catIndex"
               >
-                <h4 class="font-semibold text-gray-900 mb-2">
+                <h4 class="font-semibold text-gray-500 mb-2">
                   {{ category.title }}
                 </h4>
                 <div class="space-y-2">
@@ -59,17 +61,17 @@
                     v-for="(subItem, subIndex) in category.items"
                     :key="subIndex"
                     href="#"
-                    class="flex items-center space-x-3 text-gray-700 hover:text-black"
+                    class="flex items-center space-x-3 text-gray-700"
                   >
                     <component
                       :is="subItem.icon"
-                      class="w-5 h-5 text-gray-600 group-hover:text-black"
+                      class="w-5 h-5 text-gray-400"
                     />
                     <div>
-                      <span>{{ subItem.title }}</span>
+                      <span class="text-gray-500">{{ subItem.title }}</span>
                       <span
                         v-if="subItem.description"
-                        class="block text-sm text-gray-500"
+                        class="block text-sm text-gray-400"
                       >
                         {{ subItem.description }}
                       </span>
@@ -80,21 +82,39 @@
             </div>
           </div>
         </div>
-        <a href="#" class="hover:text-black">Enterprise</a>
-        <a href="#" class="hover:text-black">Docs</a>
-        <a href="#" class="hover:text-black">Pricing</a>
+        <a
+          href="#"
+          class="hover:text-black dark:hover:text-white dark:text-gray-400"
+          >Enterprise</a
+        >
+        <a
+          href="#"
+          class="hover:text-black dark:hover:text-white dark:text-gray-400"
+          >Docs</a
+        >
+        <a
+          href="#"
+          class="hover:text-black dark:hover:text-white dark:text-gray-400"
+          >Pricing</a
+        >
       </div>
     </div>
 
     <!-- Auth Buttons (Desktop) -->
     <div class="hidden lg:flex space-x-4">
-      <button class="border border-gray-300 px-4 py-1 rounded-lg shadow-sm">
+      <button
+        class="border border-gray-300 dark:border-[#3b3b3b] px-4 py-1 rounded-lg shadow-sm"
+      >
         Log In
       </button>
-      <button class="border border-gray-300 px-4 py-1 rounded-lg shadow-sm">
+      <button
+        class="border border-gray-300 dark:border-[#3b3b3b] px-4 py-1 rounded-lg shadow-sm"
+      >
         Contact
       </button>
-      <button class="bg-black text-white px-4 py-1 rounded-lg shadow-sm">
+      <button
+        class="bg-black dark:bg-white dark:text-black text-white px-4 py-1 rounded-lg shadow-sm"
+      >
         Sign Up
       </button>
     </div>

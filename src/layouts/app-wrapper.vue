@@ -1,6 +1,8 @@
 <template>
-  <div class="w-full bg-[#FAFAFA]">
-    <div class="sticky top-0 z-50 bg-[#FAFAFA] border-b">
+  <div class="w-full bg-[#FAFAFA] dark:bg-[#000] dark:text-white">
+    <div
+      class="sticky top-0 z-50 bg-[#FAFAFA] dark:bg-[#000] border-b dark:border-[#3b3b3b]"
+    >
       <slot name="navbar"></slot>
     </div>
     <div class="max-w-[1079px] mx-auto lg:border mt-12 px-2 lg:px-0">
