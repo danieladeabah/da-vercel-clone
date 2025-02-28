@@ -1,0 +1,11 @@
+<template>
+  <div class="w-full">
+    <slot name="navbar"></slot>
+    <div class="max-w-6xl mx-auto border mt-12">
+      <slot name="main"></slot>
+    </div>
+    <div class="max-w-6xl mx-auto mt-12">
+      <slot name="footer"></slot>
+    </div>
+  </div>
+</template>
