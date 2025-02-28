@@ -129,7 +129,7 @@ const setMode = async (mode) => {
 };
 
 const color = computed(() =>
-  colorMode.value === "dark" ? "#13171C" : "white",
+  colorMode.value === "dark" ? "#FAFAFA" : "white",
 );
 
 useHead({

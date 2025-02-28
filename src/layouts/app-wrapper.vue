@@ -5,7 +5,9 @@
     >
       <slot name="navbar"></slot>
     </div>
-    <div class="max-w-[1079px] mx-auto lg:border mt-12 px-2 lg:px-0">
+    <div
+      class="max-w-[1079px] lg:mx-auto border dark:border-[#3b3b3b] mt-12 mx-2 lg:px-0"
+    >
       <slot name="main"></slot>
     </div>
     <div class="max-w-6xl mx-auto mt-12">

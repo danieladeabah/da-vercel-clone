@@ -1,7 +1,9 @@
 <template>
   <section class="max-w-6xl mx-auto">
     <!-- Top Section -->
-    <div class="grid md:grid-cols-2 border-t border-b gap-8">
+    <div
+      class="grid md:grid-cols-2 border-t border-b dark:border-[#3b3b3b] gap-8"
+    >
       <!-- Left Card -->
       <div class="p-6 shadow-sm">
         <h3 class="flex items-center gap-2 text-gray-500 text-sm">
@@ -15,7 +17,7 @@
       </div>
 
       <!-- Right Card -->
-      <div class="p-6 border-l shadow-sm">
+      <div class="p-6 border-l dark:border-[#3b3b3b] shadow-sm">
         <h3 class="flex items-center gap-2 text-gray-500 text-sm">
           <ChatIcon /> Collaborative pre-production
         </h3>
@@ -48,7 +50,9 @@
     </div>
 
     <!-- Bottom Section -->
-    <div class="grid md:grid-cols-2 border-t border-b gap-8 mt-10">
+    <div
+      class="grid md:grid-cols-2 border-t border-b dark:border-[#3b3b3b] gap-8 mt-10"
+    >
       <!-- Left Card -->
       <div class="p-6 shadow-sm">
         <h3 class="flex items-center gap-2 text-gray-500 text-sm">
@@ -62,7 +66,7 @@
       </div>
 
       <!-- Right Card -->
-      <div class="p-6 border-l shadow-sm">
+      <div class="p-6 border-l dark:border-[#3b3b3b] shadow-sm">
         <h3 class="flex items-center gap-2 text-gray-500 text-sm">
           <BookIcon /> Conformance
         </h3>
@@ -81,13 +85,13 @@
     <div class="text-center mt-10 text-lg font-semibold">
       Scale your
       <button
-        class="border border-gray-300 bg-white px-5 rounded-full font-medium text-gray-700"
+        class="border border-gray-300 dark:border-[#3b3b3b] bg-white px-5 rounded-full font-medium text-gray-700"
       >
         <span class="flex items-center gap-2"><ConnectIcon /> Enterprise</span>
       </button>
       without compromising
       <button
-        class="border border-gray-300 bg-white px-5 rounded-full font-medium text-gray-700 mt-1 lg:mt-0"
+        class="border border-gray-300 dark:border-[#3b3b3b] bg-white px-5 rounded-full font-medium text-gray-700 mt-1 lg:mt-0"
       >
         <span class="flex items-center gap-2"
           ><PrivacyIcon /> Security</span
@@ -96,12 +100,12 @@
     </div>
 
     <div
-      class="mt-10 flex flex-col md:flex-row items-center border-t border-b gap-10 px-6 py-6"
+      class="mt-10 flex flex-col md:flex-row items-center border-t border-b dark:border-[#3b3b3b] gap-10 px-6 py-6"
     >
       <!-- Left Section -->
       <div class="flex-1 text-center md:text-left px-4 lg:px-8">
         <h2 class="font-semibold text-lg lg:text-xl">
-          <span class="text-black">Ready to deploy?</span>
+          <span class="text-black dark:text-white">Ready to deploy?</span>
           <span class="text-gray-600">
             Start building with a free account.</span
           >
@@ -120,7 +124,7 @@
             Start Deploying
           </button>
           <button
-            class="border border-gray-300 bg-white px-6 py-2 rounded-full font-medium text-gray-700"
+            class="border border-gray-300 dark:border-[#3b3b3b] bg-white px-6 py-2 rounded-full font-medium text-gray-700"
           >
             Talk to an Expert
           </button>
@@ -128,7 +132,9 @@
       </div>
 
       <!-- Right Section -->
-      <div class="flex-1 text-center md:text-left md:border-l md:pl-8">
+      <div
+        class="flex-1 text-center md:text-left md:border-l dark:border-[#3b3b3b] md:pl-8"
+      >
         <p class="text-gray-800 font-medium text-lg">
           Explore Vercel Enterprise
         </p>
@@ -137,7 +143,7 @@
           personalized demo.
         </p>
         <button
-          class="mt-3 px-6 py-2 bg-white rounded-full border border-gray-300 text-gray-700 font-medium"
+          class="mt-3 px-6 py-2 bg-white rounded-full text-gray-700 font-medium"
         >
           Explore Enterprise
         </button>
