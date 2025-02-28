@@ -1,6 +1,6 @@
 <template>
   <section class="relative flex flex-col items-center justify-center">
-    <HeroBg class="w-full h-full" />
+    <HeroBg class="w-full" height />
 
     <div
       class="absolute inset-x-0 top-4 md:top-[12rem] lg:top-[20%] px-4 text-center max-w-screen-lg mx-auto"
