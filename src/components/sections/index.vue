@@ -19,7 +19,9 @@
         <h3 class="flex items-center gap-2 text-gray-500 text-sm">
           <ChatIcon /> Collaborative pre-production
         </h3>
-        <h2 class="lg:text-xl font-semibold mt-2">Every deploy is remarkable.</h2>
+        <h2 class="lg:text-xl font-semibold mt-2">
+          Every deploy is remarkable.
+        </h2>
         <p class="text-gray-600 mt-2">
           Chat with your team on real, production-grade UI, not just designs.
         </p>
@@ -92,11 +94,11 @@
     </div>
 
     <div
-      class="mt-10 flex flex-col md:flex-row items-center border-t border-b gap-10"
+      class="mt-10 flex flex-col md:flex-row items-center border-t border-b gap-10 px-6 py-6"
     >
       <!-- Left Section -->
-      <div class="flex-1 lg:text-xl px-8 pt-4 lg:pt-2">
-        <h2 class="font-semibold">
+      <div class="flex-1 text-center md:text-left px-4 lg:px-8">
+        <h2 class="font-semibold text-lg lg:text-xl">
           <span class="text-black">Ready to deploy?</span>
           <span class="text-gray-600">
             Start building with a free account.</span
@@ -107,14 +109,16 @@
           <span class="text-blue-500 font-semibold">Pro</span> or
           <span class="text-purple-500 font-semibold">Enterprise</span> needs.
         </p>
-        <div class="mt-4 flex gap-4">
+        <div
+          class="mt-4 flex flex-col sm:flex-row gap-3 justify-center md:justify-start"
+        >
           <button
-            class="bg-black text-white px-5 py-2 rounded-full font-medium truncate"
+            class="bg-black text-white px-6 py-2 rounded-full font-medium"
           >
             Start Deploying
           </button>
           <button
-            class="border border-gray-300 bg-white px-5 py-2 rounded-full font-medium truncate text-gray-700"
+            class="border border-gray-300 bg-white px-6 py-2 rounded-full font-medium text-gray-700"
           >
             Talk to an Expert
           </button>
@@ -122,13 +126,16 @@
       </div>
 
       <!-- Right Section -->
-      <div class="md:ml-10 px-8 text-2xl py-4 lg:border-l">
-        <p class="text-gray-800 font-medium">Explore Vercel Enterprise</p>
-        <p class="text-gray-600 text-sm my-4">
-          with an interactive product tour, trial, or a personalized demo.
+      <div class="flex-1 text-center md:text-left md:border-l md:pl-8">
+        <p class="text-gray-800 font-medium text-lg">
+          Explore Vercel Enterprise
+        </p>
+        <p class="text-gray-600 text-sm my-3 max-w-md mx-auto md:mx-0">
+          Take an interactive product tour, start a trial, or request a
+          personalized demo.
         </p>
         <button
-          class="mt-3 px-5 bg-white py-2 rounded-full border border-gray-300 text-gray-700 font-medium"
+          class="mt-3 px-6 py-2 bg-white rounded-full border border-gray-300 text-gray-700 font-medium"
         >
           Explore Enterprise
         </button>
