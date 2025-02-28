@@ -3,9 +3,9 @@
     <HeroBg class="w-full h-full" />
 
     <div
-      class="absolute inset-x-0 top-8 md:top-[12rem] lg:top-[20%] px-4 text-center max-w-screen-lg mx-auto"
+      class="absolute inset-x-0 top-4 md:top-[12rem] lg:top-[20%] px-4 text-center max-w-screen-lg mx-auto"
     >
-      <h1 class="text-xl sm:text-2xl md:text-3xl font-bold text-black">
+      <h1 class="text-3xl md:text-3xl font-bold text-black">
         Your complete platform for the web.
       </h1>
       <p

@@ -83,7 +83,7 @@
       </button>
       without compromising
       <button
-        class="border border-gray-300 bg-white px-5 rounded-full font-medium text-gray-700"
+        class="border border-gray-300 bg-white px-5 rounded-full font-medium text-gray-700 mt-1 lg:mt-0"
       >
         <span class="flex items-center gap-2"
           ><PrivacyIcon /> Security</span
@@ -95,8 +95,8 @@
       class="mt-10 flex flex-col md:flex-row items-center border-t border-b gap-10"
     >
       <!-- Left Section -->
-      <div class="flex-1 px-8">
-        <h2 class="text-lg font-semibold">
+      <div class="flex-1 text-xl px-8 pt-4 lg:pt-2">
+        <h2 class="font-semibold">
           <span class="text-black">Ready to deploy?</span>
           <span class="text-gray-600">
             Start building with a free account.</span
@@ -122,7 +122,7 @@
       </div>
 
       <!-- Right Section -->
-      <div class="md:ml-10 px-8 py-4 lg:border-l">
+      <div class="md:ml-10 px-8 text-2xl py-4 lg:border-l">
         <p class="text-gray-800 font-medium">Explore Vercel Enterprise</p>
         <p class="text-gray-600 text-sm my-4">
           with an interactive product tour, trial, or a personalized demo.
