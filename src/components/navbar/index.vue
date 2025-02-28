@@ -2,63 +2,65 @@
   <nav
     class="sticky top-0 z-50 bg-[#FAFAFA] flex justify-between items-center px-8 py-4 max-w-[100rem] mx-auto pt-4"
   >
-    <!-- Logo -->
-    <div class="flex items-center space-x-2">
-      <Logo />
-    </div>
-
-    <!-- Mobile Menu Icon -->
-    <button @click="toggleMenu" class="lg:hidden">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="currentColor"
-        class="w-6 h-6"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M4 6h16M4 12h16m-7 6h7"
-        />
-      </svg>
-    </button>
-
-    <!-- Nav Links (Desktop) -->
-    <div class="hidden lg:flex space-x-6 text-gray-700">
-      <div
-        class="relative group"
-        v-for="(item, index) in navItems"
-        :key="index"
-      >
-        <button class="hover:text-black flex items-center">
-          {{ item.title }}
-          <span class="ml-1"
-            ><ChevronDownIcon
-              :class="{
-                'rotate-180': item.dropdown,
-                'rotate-0': !item.dropdown,
-              }"
-          /></span>
-        </button>
-        <div
-          v-if="item.dropdown"
-          class="absolute hidden group-hover:block bg-white shadow-md p-3 rounded-md w-48"
-        >
-          <a
-            v-for="(subItem, subIndex) in item.dropdown"
-            :key="subIndex"
-            href="#"
-            class="block px-4 py-2 hover:bg-gray-100"
-          >
-            {{ subItem }}
-          </a>
-        </div>
+    <div class="flex items-center space-x-6">
+      <!-- Logo -->
+      <div class="flex items-center space-x-2">
+        <Logo />
       </div>
-      <a href="#" class="hover:text-black">Enterprise</a>
-      <a href="#" class="hover:text-black">Docs</a>
-      <a href="#" class="hover:text-black">Pricing</a>
+
+      <!-- Mobile Menu Icon -->
+      <button @click="toggleMenu" class="lg:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M4 6h16M4 12h16m-7 6h7"
+          />
+        </svg>
+      </button>
+
+      <!-- Nav Links (Desktop) -->
+      <div class="hidden lg:flex space-x-6 text-gray-700">
+        <div
+          class="relative group"
+          v-for="(item, index) in navItems"
+          :key="index"
+        >
+          <button class="hover:text-black flex items-center">
+            {{ item.title }}
+            <span class="ml-1"
+              ><ChevronDownIcon
+                :class="{
+                  'rotate-180': item.dropdown,
+                  'rotate-0': !item.dropdown,
+                }"
+            /></span>
+          </button>
+          <div
+            v-if="item.dropdown"
+            class="absolute hidden group-hover:block bg-white shadow-md p-3 rounded-md w-48"
+          >
+            <a
+              v-for="(subItem, subIndex) in item.dropdown"
+              :key="subIndex"
+              href="#"
+              class="block px-4 py-2 hover:bg-gray-100"
+            >
+              {{ subItem }}
+            </a>
+          </div>
+        </div>
+        <a href="#" class="hover:text-black">Enterprise</a>
+        <a href="#" class="hover:text-black">Docs</a>
+        <a href="#" class="hover:text-black">Pricing</a>
+      </div>
     </div>
 
     <!-- Auth Buttons (Desktop) -->
