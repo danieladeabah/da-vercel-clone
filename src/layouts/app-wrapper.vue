@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full">
+  <div class="w-full bg-[#FAFAFA]">
     <slot name="navbar"></slot>
     <div class="max-w-[1079px] mx-auto border mt-12">
       <slot name="main"></slot>

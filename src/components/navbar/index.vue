@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="sticky top-0 z-50 bg-white flex justify-between items-center px-8 py-4 max-w-[100rem] mx-auto pt-4"
+    class="sticky top-0 z-50 bg-[#FAFAFA] flex justify-between items-center px-8 py-4 max-w-[100rem] mx-auto pt-4"
   >
     <!-- Logo -->
     <div class="flex items-center space-x-2">
@@ -63,13 +63,15 @@
 
     <!-- Auth Buttons (Desktop) -->
     <div class="hidden lg:flex space-x-4">
-      <button class="border border-gray-300 px-4 py-1 rounded-3xl">
+      <button class="border border-gray-300 px-4 py-1 rounded-lg shadow-sm">
         Log In
       </button>
-      <button class="border border-gray-300 px-4 py-1 rounded-3xl">
+      <button class="border border-gray-300 px-4 py-1 rounded-lg shadow-sm">
         Contact
       </button>
-      <button class="bg-black text-white px-4 py-1 rounded-3xl">Sign Up</button>
+      <button class="bg-black text-white px-4 py-1 rounded-lg shadow-sm">
+        Sign Up
+      </button>
     </div>
   </nav>
 </template>
