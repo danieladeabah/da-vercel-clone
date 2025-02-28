@@ -109,12 +109,12 @@
         </p>
         <div class="mt-4 flex gap-4">
           <button
-            class="bg-black text-white px-5 py-2 rounded-full font-medium"
+            class="bg-black text-white px-5 py-2 rounded-full font-medium truncate"
           >
             Start Deploying
           </button>
           <button
-            class="border border-gray-300 bg-white px-5 py-2 rounded-full font-medium text-gray-700"
+            class="border border-gray-300 bg-white px-5 py-2 rounded-full font-medium truncate text-gray-700"
           >
             Talk to an Expert
           </button>
@@ -122,7 +122,7 @@
       </div>
 
       <!-- Right Section -->
-      <div class="md:ml-10 px-8 py-4 border-l">
+      <div class="md:ml-10 px-8 py-4 lg:border-l">
         <p class="text-gray-800 font-medium">Explore Vercel Enterprise</p>
         <p class="text-gray-600 text-sm my-4">
           with an interactive product tour, trial, or a personalized demo.
