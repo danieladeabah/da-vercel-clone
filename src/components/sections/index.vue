@@ -1,7 +1,7 @@
 <template>
   <section class="max-w-6xl mx-auto">
     <!-- Top Section -->
-    <div class="grid md:grid-cols-2  border-t border-b gap-8">
+    <div class="grid md:grid-cols-2 border-t border-b gap-8">
       <!-- Left Card -->
       <div class="p-6 shadow-sm">
         <h3 class="text-gray-500 text-sm">→ Git-connected Deploys</h3>
@@ -40,7 +40,7 @@
     <!-- Bottom Section -->
     <div class="grid md:grid-cols-2 border-t border-b gap-8 mt-10">
       <!-- Left Card -->
-      <div class="p-6  shadow-sm">
+      <div class="p-6 shadow-sm">
         <h3 class="text-gray-500 text-sm">→ Instant Rollbacks</h3>
         <h2 class="text-xl font-semibold mt-2">Go ahead, deploy on Friday.</h2>
         <p class="text-gray-600 mt-2">
@@ -70,7 +70,7 @@
     </div>
 
     <!-- Left Section -->
-    <div class="mt-10 md:flex items-center  border-t border-b gap-10">
+    <div class="mt-10 md:flex items-center border-t border-b gap-10">
       <div class="flex-1 px-8">
         <h2 class="text-lg font-semibold">
           <span class="text-black">Ready to deploy?</span>
@@ -85,23 +85,21 @@
           <button class="bg-black text-white px-4 py-2 rounded-lg">
             Start Deploying
           </button>
-          <button class="border-t border-b border-gray-300 px-4 py-2 rounded-lg">
+          <button
+            class="border-t border-b border-gray-300 px-4 py-2 rounded-lg"
+          >
             Talk to an Expert
           </button>
         </div>
       </div>
 
       <!-- Right Section -->
-      <div
-        class="mt-6 md:mt-0 md:ml-10 p-4 border-l px-8 shadow-sm"
-      >
+      <div class="mt-6 md:mt-0 md:ml-10 p-4 border-l px-8 shadow-sm">
         <p class="text-gray-800 font-medium">Explore Vercel Enterprise</p>
         <p class="text-gray-600 text-sm mt-1">
           with an interactive product tour, trial, or a personalized demo.
         </p>
-        <button class="mt-3 px-4 py-8 rounded-lg">
-          Explore Enterprise
-        </button>
+        <button class="mt-3 px-4 py-8 rounded-lg">Explore Enterprise</button>
       </div>
     </div>
   </section>

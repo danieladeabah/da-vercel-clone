@@ -1,7 +1,5 @@
 <template>
-  <footer
-    class="p-8"
-  >
+  <footer class="p-8">
     <div
       class="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6"
     >

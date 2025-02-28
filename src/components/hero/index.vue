@@ -1,9 +1,7 @@
 <template>
-  <section class="flex flex-col">
-    <div class="relative mt-10 w-full max-w-3xl">
-      <HeroBg />
-      <HeroDeploy />
-    </div>
+  <section class="flex flex-col items-center justify-center">
+    <HeroBg />
+    <HeroDeploy />
   </section>
 </template>
 
