@@ -1,7 +1,9 @@
 <template>
   <section class="relative flex flex-col items-center justify-center">
     <HeroBg class="w-full" height />
-
+    <div class="absolute inset-x-0 top-[12rem] h-1/2 hidden lg:block">
+      <Triangle class="w-full" />
+    </div>
     <div
       class="absolute inset-x-0 top-4 md:top-[12rem] lg:top-[20%] px-4 text-center max-w-screen-lg mx-auto"
     >
@@ -36,4 +38,5 @@
 <script setup>
 import HeroBg from "@/assets/hero/hero-bg.vue";
 import HeroDeploy from "@/assets/hero/hero-deploy.vue";
+import Triangle from "@/assets/hero/triangle.vue";
 </script>
