@@ -79,13 +79,15 @@
       <button
         class="border border-gray-300 bg-white px-5 rounded-full font-medium text-gray-700"
       >
-        Enterprise
+        <span class="flex items-center gap-2"><ConnectIcon /> Enterprise</span>
       </button>
       without compromising
       <button
         class="border border-gray-300 bg-white px-5 rounded-full font-medium text-gray-700"
       >
-        Security</button
+        <span class="flex items-center gap-2"
+          ><PrivacyIcon /> Security</span
+        ></button
       >.
     </div>
 

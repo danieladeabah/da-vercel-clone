@@ -6,7 +6,7 @@
       <!-- Products Section -->
       <div>
         <h3 class="font-semibold text-lg mb-2">Products</h3>
-        <ul class="space-y-1">
+        <ul class="space-y-1 font-medium text-gray-500">
           <li>All</li>
           <li>Enterprise</li>
           <li>Fluid Compute</li>
@@ -23,7 +23,7 @@
       <!-- Resources Section -->
       <div>
         <h3 class="font-semibold text-lg mb-2">Resources</h3>
-        <ul class="space-y-1">
+        <ul class="space-y-1 font-medium text-gray-500">
           <li>Community</li>
           <li>Docs</li>
           <li>Guides</li>
@@ -39,7 +39,7 @@
       <!-- Company Section -->
       <div>
         <h3 class="font-semibold text-lg mb-2">Company</h3>
-        <ul class="space-y-1">
+        <ul class="space-y-1 font-medium text-gray-500">
           <li>About</li>
           <li>Blog</li>
           <li>Careers</li>
@@ -55,21 +55,21 @@
       <!-- Social Section -->
       <div>
         <h3 class="font-semibold text-lg mb-2">Social</h3>
-        <ul class="space-y-2">
+        <ul class="space-y-2 text-gray-500">
           <li class="flex items-center gap-2">
-            <Icon name="mdi:github" class="text-gray-600 w-5 h-5" />
+            <GitHubIcon class="text-gray-600 w-5 h-5" />
             GitHub
           </li>
           <li class="flex items-center gap-2">
-            <Icon name="mdi:linkedin" class="text-gray-600 w-5 h-5" />
+            <LinkedinIcon class="text-gray-600 w-5 h-5" />
             LinkedIn
           </li>
           <li class="flex items-center gap-2">
-            <Icon name="mdi:twitter" class="text-gray-600 w-5 h-5" />
+            <XIcon class="text-gray-600 w-5 h-5" />
             Twitter
           </li>
           <li class="flex items-center gap-2">
-            <Icon name="mdi:youtube" class="text-gray-600 w-5 h-5" />
+            <YouTubeIcon class="text-gray-600 w-5 h-5" />
             YouTube
           </li>
         </ul>
@@ -83,15 +83,15 @@
       <span class="flex items-center gap-2 text-blue-500 font-semibold">
         <span class="text-xl">&#x25CF;</span> All systems normal</span
       >
-      <div class="flex gap-2 border rounded-full">
-        <button class="flex items-center gap-2 px-4 py-2 text-gray-600">
-          <Icon name="mdi:white-balance-sunny" class="w-5 h-5" />
+      <div class="flex border rounded-full">
+        <button class="flex items-center px-2 py-2 text-gray-600">
+          <SystemIcon class="w-3 h-3" />
         </button>
-        <button class="flex items-center gap-2 px-4 py-2 text-gray-600">
-          <Icon name="mdi:moon-waning-crescent" class="w-5 h-5" />
+        <button class="flex items-center px-2 py-2 text-gray-600">
+          <SunIcon class="w-3 h-3" />
         </button>
-        <button class="flex items-center gap-2 px-4 py-2 text-gray-600">
-          <Icon name="mdi:monitor-dashboard" class="w-5 h-5" />
+        <button class="flex items-center px-2 py-2 text-gray-600">
+          <MoonIcon class="w-3 h-3" />
         </button>
       </div>
     </div>
@@ -99,7 +99,13 @@
 </template>
 
 <script setup>
-import { Icon } from "@iconify/vue";
+import GitHubIcon from "@/assets/icons/social/github-icon.vue";
+import LinkedinIcon from "@/assets/icons/social/linkedin-icon.vue";
+import XIcon from "@/assets/icons/social/x-icon.vue";
+import YouTubeIcon from "@/assets/icons/social/youtube-icon.vue";
+import SunIcon from "@/assets/icons/darkmode/sun-icon.vue";
+import MoonIcon from "@/assets/icons/darkmode/moon-icon.vue";
+import SystemIcon from "@/assets/icons/darkmode/system-icon.vue";
 </script>
 
 <style scoped>
