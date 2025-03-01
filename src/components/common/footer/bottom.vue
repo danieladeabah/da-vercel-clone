@@ -30,6 +30,7 @@
 <script setup>
 import SunIcon from "@/assets/icons/darkmode/sun-icon.vue";
 import MoonIcon from "@/assets/icons/darkmode/moon-icon.vue";
+
 const colorMode = useColorMode();
 const isDark = computed(() => colorMode.value === "dark");
 const isLight = computed(() => colorMode.value === "light");
@@ -37,4 +38,33 @@ const setMode = async (mode) => {
   colorMode.preference = mode;
   await nextTick();
 };
+
+const color = computed(() =>
+  colorMode.value === "dark" ? "#13171C" : "white",
+);
+
+useHead({
+  meta: [
+    { charset: "utf-8" },
+    { name: "viewport", content: "width=device-width, initial-scale=1" },
+    { key: "theme-color", name: "theme-color", content: color },
+  ],
+  link: [
+    {
+      rel: "stylesheet",
+      href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+    },
+  ],
+  titleTemplate: (titleChunk) => {
+    return titleChunk
+      ? `${titleChunk} | Vercel Clone - Daniel Adeabah`
+      : "Vercel Clone - Daniel Adeabah";
+  },
+});
 </script>
+
+<style>
+* {
+  font-family: "Inter", sans-serif;
+}
+</style>
