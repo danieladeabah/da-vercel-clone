@@ -14,6 +14,7 @@
           :src="userData.picture"
           alt="User Profile"
           @click="logoutUser"
+          :title="userData.name"
         />
       </div>
 
@@ -67,6 +68,7 @@
         :src="userData.picture"
         alt="User Profile"
         @click="logoutUser"
+        :title="userData.name"
       />
     </div>
 
@@ -82,35 +84,17 @@
 </template>
 
 <script setup>
-import { useCookie } from "#app";
+import { getUserAuthState, logoutUser } from "@/utils/auth";
 import Logo from "@/assets/icons/logo.vue";
 import UButton from "@/components/common/button.vue";
 import { navItems } from "@/constants/navbar";
 
-const router = useRouter();
-const userCookie = useCookie("userData");
+const userCookie = getUserAuthState().userData;
 
 // Compute user data reactively
 const userData = computed(() => userCookie.value || null);
 
 onMounted(() => {
-  const storedUserData = localStorage.getItem("userData");
-  if (storedUserData) {
-    try {
-      userCookie.value = JSON.parse(storedUserData);
-    } catch (error) {
-      console.error("Failed to parse userData:", error);
-      userCookie.value = null;
-    }
-  }
+  getUserAuthState();
 });
-
-// Logout function
-const logoutUser = () => {
-  userCookie.value = null;
-  localStorage.removeItem("userData");
-  localStorage.removeItem("userToken");
-
-  router.push("/");
-};
 </script>

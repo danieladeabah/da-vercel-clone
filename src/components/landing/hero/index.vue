@@ -1,19 +1,21 @@
 <template>
   <section class="relative flex flex-col items-center justify-center">
     <div
-      class="lg:absolute lg:inset-x-0 md:top-[12rem] lg:top-[20%] px-2 py-4 text-center max-w-screen-lg mx-auto"
+      class="lg:absolute lg:inset-x-0 md:top-[12rem] lg:top-[20%] px-2 py-4 text-center max-w-screen-lg mx-auto z-10"
     >
-      <h1 class="text-3xl md:text-3xl font-bold text-black dark:text-white">
+      <h1
+        class="text-3xl md:text-3xl font-bold text-black dark:text-white lg:dark:text-black"
+      >
         Your complete platform for the web.
       </h1>
       <p
-        class="mt-2 text-sm sm:text-base md:text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto"
+        class="mt-2 text-sm sm:text-base md:text-lg text-gray-700 dark:text-gray-300 lg:dark:text-black max-w-2xl mx-auto"
       >
         Vercel provides the developer tools and cloud infrastructure to build,
         scale, and secure a faster, more personalized web.
       </p>
 
-      <div class="mt-6 flex justify-center gap-4">
+      <div class="mt-6 flex justify-center gap-1 lg:gap-4">
         <UButton primary> ▲ Start Deploying </UButton>
         <UButton> Get a Demo </UButton>
       </div>

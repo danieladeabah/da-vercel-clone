@@ -14,32 +14,12 @@
 
 <script setup>
 import GoogleAuth from "@/pages/auth/google-auth.vue";
+import { getUserAuthState, checkUserAndRedirect } from "@/utils/auth";
 
-const userToken = useState("userToken", () => null);
-const userData = useState("userData", () => null);
 const router = useRouter();
+const { userToken, userData } = getUserAuthState();
 
 onMounted(() => {
-  if (process.client) {
-    const storedToken = localStorage.getItem("userToken");
-    const storedUserData = localStorage.getItem("userData");
-
-    if (storedToken) {
-      userToken.value = storedToken;
-    }
-
-    if (storedUserData) {
-      try {
-        userData.value = JSON.parse(storedUserData);
-      } catch (error) {
-        console.error("Failed to parse userData:", error);
-        userData.value = null;
-      }
-    }
-
-    if (userToken.value) {
-      router.push("/");
-    }
-  }
+  checkUserAndRedirect(router, userToken);
 });
 </script>
