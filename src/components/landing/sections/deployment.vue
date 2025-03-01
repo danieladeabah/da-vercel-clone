@@ -16,7 +16,7 @@
         </p>
       </h2>
       <div class="mt-4 flex items-center gap-3 justify-center">
-        <UButton primary>Start Deploying</UButton>
+        <UButton primary>Deploy</UButton>
         <UButton>Talk to Expert</UButton>
       </div>
     </div>
