@@ -20,8 +20,7 @@
         @click="setMode('dark')"
         class="flex items-center px-3 py-1 text-gray-600"
         :class="{
-          'bg-gray-300 dark:bg-gray-400 border dark:border-[#3b3b3b] rounded-full':
-            isDark,
+          'bg-gray-300 dark:bg-[#1F1F1F] rounded-full': isDark,
         }"
       >
         <MoonIcon class="w-5 h-5" />

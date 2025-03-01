@@ -4,17 +4,17 @@
   >
     <!-- Left Section -->
     <div class="flex flex-col items-center lg:items-start px-4 lg:px-8">
-      <h2 class="font-semibold text-xl lg:text-3xl">
+      <h2 class="font-semibold text-lg lg:text-lg">
         <span class="text-black dark:text-white">Ready to deploy? </span>
-        <span class="text-gray-400 dark:text-gray-300"
+        <span class="text-gray-500 dark:text-gray-300 font-normal"
           >Start building with a free account.</span
         >
+        <p class="text-gray-500 dark:text-gray-300 font-normal">
+          Speak to an expert for your
+          <span class="text-blue-500 font-semibold">Pro</span> or
+          <span class="text-purple-500 font-semibold">Enterprise</span> needs.
+        </p>
       </h2>
-      <p class="text-gray-600 dark:text-gray-300 mt-2">
-        Speak to an expert for your
-        <span class="text-blue-500 font-semibold">Pro</span> or
-        <span class="text-purple-500 font-semibold">Enterprise</span> needs.
-      </p>
       <div
         class="mt-4 flex flex-col lg:flex-row items-center gap-3 justify-center"
       >
@@ -27,17 +27,15 @@
     <div
       class="flex flex-col items-center lg:items-start md:border-l dark:border-[#3b3b3b] md:pl-8"
     >
-      <p
-        class="text-gray-600 dark:text-gray-300 font-medium text-lg lg:text-2xl"
-      >
-        Explore Vercel Enterprise
-      </p>
-      <p
-        class="text-gray-600 dark:text-gray-300 text-md my-3 lg:my-0 max-w-md mx-auto md:mx-0"
-      >
-        Take an interactive product tour, start a trial, or request a
-        personalized demo.
-      </p>
+      <h2 class="font-semibold text-lg lg:text-lg">
+        <span class="text-black dark:text-white">
+          Explore Vercel Enterprise
+        </span>
+        <p class="text-gray-500 dark:text-gray-300 font-normal">
+          with an interactive product tour, <br />
+          trial, or a personalized demo.
+        </p>
+      </h2>
       <UButton class="w-fit mt-4">Explore Enterprise</UButton>
     </div>
   </div>

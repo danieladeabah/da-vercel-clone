@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-[#FAFAFA] dark:bg-[#000] dark:text-white">
+  <div class="w-full min-h-screen bg-[#FAFAFA] dark:bg-[#000] dark:text-white">
     <div
       ref="navbar"
       class="sticky top-0 z-50 bg-[#FAFAFA] dark:bg-[#000] transition-all duration-300"
