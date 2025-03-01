@@ -11,8 +11,8 @@
         >
         <p class="text-gray-500 dark:text-gray-300 font-normal">
           Speak to an expert for your
-          <span class="text-blue-500 font-semibold">Pro</span> or
-          <span class="text-purple-500 font-semibold">Enterprise</span> needs.
+          <span class="text-blue-500 font-normal">Pro</span> or
+          <span class="text-purple-500 font-normal">Enterprise</span> needs.
         </p>
       </h2>
       <div class="mt-4 flex items-center gap-3 justify-center">
@@ -25,7 +25,7 @@
     <div
       class="flex flex-col items-center lg:items-start md:border-l dark:border-[#3b3b3b] md:pl-8"
     >
-      <h2 class="font-semibold text-lg lg:text-lg">
+      <h2 class="font-normal text-lg lg:text-lg">
         <span class="text-black dark:text-white">
           Explore Vercel Enterprise
         </span>

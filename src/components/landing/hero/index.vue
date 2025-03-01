@@ -4,7 +4,7 @@
       class="lg:absolute lg:inset-x-0 md:top-[12rem] lg:top-[20%] px-2 py-4 text-center max-w-screen-lg mx-auto z-10"
     >
       <h1
-        class="text-3xl md:text-3xl font-bold text-black dark:text-white lg:dark:text-black"
+        class="text-3xl md:text-3xl font-normal lg:font-bold text-black dark:text-white lg:dark:text-black"
       >
         Your complete platform for the web.
       </h1>
