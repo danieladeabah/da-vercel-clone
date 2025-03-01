@@ -15,11 +15,9 @@
           <span class="text-purple-500 font-semibold">Enterprise</span> needs.
         </p>
       </h2>
-      <div
-        class="mt-4 flex flex-col lg:flex-row items-center gap-3 justify-center"
-      >
+      <div class="mt-4 flex items-center gap-3 justify-center">
         <UButton primary>Start Deploying</UButton>
-        <UButton>Talk to an Expert</UButton>
+        <UButton>Talk to Expert</UButton>
       </div>
     </div>
 

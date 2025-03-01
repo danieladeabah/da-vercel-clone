@@ -3,10 +3,10 @@
     <!-- Top Section -->
     <SectionGrid>
       <SectionCard>
-        <GitConnect width="100%" />
+        <GitConnect width="100%" height="auto" />
       </SectionCard>
       <SectionCard border>
-        <Collaborate width="100%" />
+        <Collaborate width="100%" height="auto" />
       </SectionCard>
     </SectionGrid>
 
@@ -16,10 +16,10 @@
     <!-- Bottom Section -->
     <SectionGrid>
       <SectionCard>
-        <Rollback width="100%" />
+        <Rollback width="100%" height="auto" />
       </SectionCard>
       <SectionCard border>
-        <Conformance width="100%" />
+        <Conformance width="100%" height="auto" />
       </SectionCard>
     </SectionGrid>
 

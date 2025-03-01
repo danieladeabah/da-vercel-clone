@@ -1,13 +1,7 @@
 <template>
   <section class="relative flex flex-col items-center justify-center">
-    <HeroBg class="w-full" />
-
-    <div class="absolute inset-x-0 top-[12rem] h-1/2 hidden lg:block">
-      <Triangle class="w-full" />
-    </div>
-
     <div
-      class="absolute inset-x-0 top-4 md:top-[12rem] lg:top-[20%] px-4 text-center max-w-screen-lg mx-auto"
+      class="lg:absolute lg:inset-x-0 md:top-[12rem] lg:top-[20%] px-2 py-4 text-center max-w-screen-lg mx-auto"
     >
       <h1 class="text-3xl md:text-3xl font-bold text-black dark:text-white">
         Your complete platform for the web.
@@ -25,7 +19,13 @@
       </div>
     </div>
 
-    <HeroDeploy class="w-full max-w-screen-lg" />
+    <HeroBg class="w-full" />
+
+    <div class="absolute inset-x-0 top-[4rem] lg:top-[12rem] h-1/2">
+      <Triangle class="w-full" />
+    </div>
+
+    <HeroDeploy width="100%" height="" />
   </section>
 </template>
 
