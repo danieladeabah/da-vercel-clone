@@ -1,14 +1,14 @@
 <template>
   <NuxtLayout name="app-wrapper">
     <template #navbar>
-      <Navbar />
+      <CommonNavbar />
     </template>
     <template #main>
-      <Hero />
-      <Sections />
+      <LandingHero />
+      <LandingSections />
     </template>
     <template #footer>
-      <Footer />
+      <CommonFooter />
     </template>
   </NuxtLayout>
 </template>

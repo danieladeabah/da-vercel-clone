@@ -36,7 +36,7 @@
 </template>
 
 <script setup>
-import HeroBg from "@/assets/hero/hero-bg.vue";
-import HeroDeploy from "@/assets/hero/hero-deploy.vue";
-import Triangle from "@/assets/hero/triangle.vue";
+import HeroBg from "@/assets/landing/hero/hero-bg.vue";
+import HeroDeploy from "@/assets/landing/hero/hero-deploy.vue";
+import Triangle from "@/assets/landing/hero/triangle.vue";
 </script>

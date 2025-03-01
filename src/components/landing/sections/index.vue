@@ -118,11 +118,11 @@
 </template>
 
 <script setup>
-import GitConnect from "@/assets/sections/git-connect.vue";
-import Collaborate from "@/assets/sections/collaborate.vue";
-import Charts from "@/assets/sections/charts.vue";
-import Rollback from "@/assets/sections/rollback.vue";
-import Conformance from "@/assets/sections/conformance.vue";
+import GitConnect from "@/assets/landing/sections/git-connect.vue";
+import Collaborate from "@/assets/landing/sections/collaborate.vue";
+import Charts from "@/assets/landing/sections/charts.vue";
+import Rollback from "@/assets/landing/sections/rollback.vue";
+import Conformance from "@/assets/landing/sections/conformance.vue";
 import ConnectIcon from "@/assets/icons/connect-icon.vue";
 import PrivacyIcon from "@/assets/icons/privacy-icon.vue";
 </script>
