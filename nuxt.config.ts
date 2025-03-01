@@ -7,4 +7,9 @@ export default defineNuxtConfig({
   colorMode: {
     preference: "light",
   },
+  runtimeConfig: {
+    public: {
+      googleClientId: process.env.GOOGLE_CLIENT_ID ?? "",
+    },
+  },
 });
