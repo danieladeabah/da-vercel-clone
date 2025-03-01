@@ -55,11 +55,10 @@ useHead({
       href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
     },
   ],
-  titleTemplate: (titleChunk) => {
-    return titleChunk
-      ? `${titleChunk} | Vercel Clone - Daniel Adeabah`
-      : "Vercel Clone - Daniel Adeabah";
-  },
+});
+
+useSeoMeta({
+  titleTemplate: "Vercel clone - Daniel Adeabah",
 });
 </script>
 
