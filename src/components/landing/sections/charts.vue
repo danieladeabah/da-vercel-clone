@@ -14,20 +14,22 @@
       Upgrade your post-launch workflow with actionable, real-time insights.
     </p>
     <div class="mt-4">
-      <VueApexCharts
-        type="line"
-        :options="chartOptions"
-        :series="chartSeries"
-        height="350"
-      />
+      <client-only>
+        <VueApexCharts
+          type="line"
+          :options="chartOptions"
+          :series="chartSeries"
+          height="350"
+        />
+      </client-only>
     </div>
   </div>
 </template>
 
 <script setup>
-import VueApexCharts from "vue3-apexcharts";
+import { defineAsyncComponent } from "vue";
 import PrivacyIcon from "@/assets/icons/privacy-icon.vue";
 import { chartOptions, chartSeries } from "@/constants/charts";
 
-defineOptions({ ssr: false });
+const VueApexCharts = defineAsyncComponent(() => import("vue3-apexcharts"));
 </script>

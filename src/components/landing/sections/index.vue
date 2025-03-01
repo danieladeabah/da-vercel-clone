@@ -11,7 +11,7 @@
     </SectionGrid>
 
     <!-- Middle Section -->
-    <MiddleSection />
+    <Charts />
 
     <!-- Bottom Section -->
     <SectionGrid>
@@ -39,7 +39,7 @@ import Conformance from "@/assets/landing/sections/conformance.vue";
 
 import SectionGrid from "@/components/landing/sections/grid.vue";
 import SectionCard from "@/components/landing/sections/card.vue";
-import MiddleSection from "@/components/landing/sections/middle-section.vue";
+import Charts from "~/components/landing/sections/charts.vue";
 import FooterCTA from "@/components/landing/sections/cta.vue";
 import DeploymentSection from "@/components/landing/sections/deployment.vue";
 </script>
