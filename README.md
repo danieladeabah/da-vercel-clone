@@ -1,8 +1,10 @@
-# Vercel Clone - Gigsama Challenge
+# **Vercel Clone - Gigsama Challenge**
 
-## Project Setup
+## **Project Setup**
 
-This project is built with **Nuxt 3**, a powerful Vue framework for building modern web applications.
+This project is built with **Nuxt 3**, a powerful Vue framework for building modern web applications. It is fully **responsive**, ensuring a seamless experience across devices.
+
+Additionally, **Google Authentication** has been integrated as a test implementation.
 
 ```bash
 # Install dependencies
