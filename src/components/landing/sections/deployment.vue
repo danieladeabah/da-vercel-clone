@@ -13,7 +13,9 @@
         <span class="text-blue-500 font-semibold">Pro</span> or
         <span class="text-purple-500 font-semibold">Enterprise</span> needs.
       </p>
-      <div class="mt-4 flex items-center gap-3 justify-center">
+      <div
+        class="mt-4 flex flex-col lg:flex-row items-center gap-3 justify-center"
+      >
         <UButton primary>Start Deploying</UButton>
         <UButton>Talk to an Expert</UButton>
       </div>
