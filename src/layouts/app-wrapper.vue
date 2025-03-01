@@ -8,7 +8,7 @@
       <slot name="navbar"></slot>
     </div>
     <div
-      class="max-w-[1150px] lg:mx-auto border dark:border-[#3b3b3b] mt-12 lg:mt-20 mx-6 lg:px-0"
+      class="max-w-[1080px] lg:mx-auto border dark:border-[#3b3b3b] mt-6 lg:mt-24 mx-4 lg:px-0"
     >
       <slot name="main"></slot>
     </div>

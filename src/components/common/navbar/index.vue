@@ -1,8 +1,8 @@
 <template>
   <nav
-    class="flex px-4 py-3 justify-between items-center relative z-50 max-w-screen-2xl mx-auto"
+    class="flex px-2 lg:px-[4.33rem] py-5 lg:py-4 justify-between items-center relative z-50 max-w-screen-2xl mx-2 lg:mx-auto"
   >
-    <div class="flex items-center space-x-6">
+    <div class="flex items-center space-x-4">
       <NuxtLink to="/">
         <Logo />
       </NuxtLink>
@@ -39,7 +39,7 @@
       </NuxtLink>
 
       <!-- Navbar Links -->
-      <div class="hidden lg:flex space-x-6 text-gray-700">
+      <div class="hidden lg:flex space-x-6 text-gray-700 text-sm">
         <CommonNavbarItems
           v-for="(item, index) in navItems"
           :key="index"
@@ -75,9 +75,9 @@
     </div>
 
     <!-- Desktop Login Buttons -->
-    <div v-else class="hidden lg:flex space-x-4">
+    <div v-else class="hidden lg:flex space-x-2">
       <NuxtLink to="/auth">
-        <UButton rounded="rounded-md" padding="py-1"> Login </UButton>
+        <UButton rounded="rounded-md" padding="py-1"> Log In </UButton>
       </NuxtLink>
       <UButton rounded="rounded-md" padding="py-1"> Contact </UButton>
       <UButton primary rounded="rounded-md" padding="py-1"> Sign Up </UButton>

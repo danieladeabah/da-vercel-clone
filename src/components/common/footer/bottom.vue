@@ -1,8 +1,8 @@
 <template>
   <div
-    class="flex flex-col lg:flex-row gap-4 justify-between items-center mt-6 pt-4 text-sm"
+    class="flex flex-col lg:flex-row gap-4 justify-between items-center mt-6 pt-4 text-sm lg:mb-16"
   >
-    <span class="flex items-center gap-2 text-blue-500 font-semibold">
+    <span class="flex items-center gap-2 text-blue-500">
       <span class="text-xl">&#x25CF;</span> All systems normal
     </span>
     <div class="flex border dark:border-[#3b3b3b] rounded-full">

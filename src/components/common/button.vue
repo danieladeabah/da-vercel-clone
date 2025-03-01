@@ -1,7 +1,7 @@
 <template>
   <button
     :class="[
-      'px-5 sm:px-6 font-medium truncate flex items-center border',
+      'px-3 font-medium truncate flex items-center border text-sm',
       primary
         ? 'bg-black text-white dark:bg-white dark:text-black hover:bg-[#1F1F1F]'
         : 'bg-white text-black dark:bg-black dark:text-white dark:hover:bg-[#1F1F1F] border-gray-300 dark:border-[#3b3b3b]',

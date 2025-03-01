@@ -16,7 +16,7 @@
       </p>
 
       <div class="mt-6 flex justify-center gap-1 lg:gap-4">
-        <UButton primary> ▲ Deploy </UButton>
+        <UButton primary padding="py-2 px-5"> ▲ Deploy </UButton>
         <UButton> Get a Demo </UButton>
       </div>
     </div>
