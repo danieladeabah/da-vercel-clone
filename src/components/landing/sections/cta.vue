@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex items-center justify-center gap-2 mt-10 text-lg font-semibold"
+    class="flex flex-col lg:flex-row items-center justify-center gap-2 mt-10 text-lg font-semibold"
   >
     Scale your
     <UButton>

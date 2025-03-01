@@ -22,9 +22,12 @@
               v-for="(subItem, subIndex) in category.items"
               :key="subIndex"
               href="#"
-              class="flex items-center space-x-3 text-gray-700"
+              class="flex items-center space-x-3 text-gray-700 group/item"
             >
-              <component :is="subItem.icon" class="w-5 h-5 text-gray-400" />
+              <component
+                :is="subItem.icon"
+                class="w-8 h-8 text-gray-400 dark:group-hover/item:bg-white group-hover/item:bg-black dark:group-hover/item:text-black transition-colors duration-300 p-2 font-bold rounded-lg"
+              />
               <div>
                 <span class="text-gray-500">{{ subItem.title }}</span>
                 <span

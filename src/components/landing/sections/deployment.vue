@@ -13,9 +13,7 @@
         <span class="text-blue-500 font-semibold">Pro</span> or
         <span class="text-purple-500 font-semibold">Enterprise</span> needs.
       </p>
-      <div
-        class="mt-4 flex flex-col sm:flex-row gap-3 justify-center md:justify-start"
-      >
+      <div class="mt-4 flex items-center gap-3 justify-center">
         <UButton primary>Start Deploying</UButton>
         <UButton>Talk to an Expert</UButton>
       </div>
@@ -23,7 +21,7 @@
 
     <!-- Right Section -->
     <div
-      class="flex-1 text-center md:text-left md:border-l dark:border-[#3b3b3b] md:pl-8"
+      class="flex flex-col items-center md:text-left md:border-l dark:border-[#3b3b3b] md:pl-8"
     >
       <p class="text-gray-500 font-medium text-lg">Explore Vercel Enterprise</p>
       <p class="text-gray-600 text-sm my-3 lg:my-0 max-w-md mx-auto md:mx-0">
