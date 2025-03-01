@@ -1,6 +1,6 @@
 <template>
   <div
-    class="mt-10 flex flex-col md:flex-row border-t border-b dark:border-[#3b3b3b] gap-10 p-6"
+    class="mt-10 flex flex-col md:flex-row border-t dark:border-[#3b3b3b] gap-10 p-6"
   >
     <!-- Left Section -->
     <div class="flex flex-col items-center lg:items-start px-4 lg:px-8">
