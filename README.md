@@ -1,4 +1,4 @@
-# **Vercel Clone - Gigsama Challenge**
+# **Vercel Clone**
 
 ## **Project Setup**
 
